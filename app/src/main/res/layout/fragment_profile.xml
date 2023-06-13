@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".profileFragment">
+
+    <RelativeLayout
+        android:id="@+id/get_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        >
+        <TextView
+            android:id="@+id/Text_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_margin="20dp"
+            />
+
+        <TextView
+            android:id="@+id/Text_mobile"
+            android:layout_below="@+id/Text_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_margin="20dp"
+            />
+        <TextView
+            android:id="@+id/Text_mail"
+            android:layout_below="@+id/Text_mobile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_margin="20dp"
+            />
+        <TextView
+            android:id="@+id/Text_pass"
+            android:layout_below="@+id/Text_mail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_margin="20dp"
+            />
+
+
+
+    </RelativeLayout>
+
+
+
+</FrameLayout>
